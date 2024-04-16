@@ -1,0 +1,123 @@
+{
+    "$schema": "..\/..\/..\/schemas\/module.json",
+    "info": {
+        "name": {
+            "_ru": "Книжный магазин",
+            "_en": "book shop"
+        },
+        "alias": "bookshop",
+        "namespace": "aspro",
+        "version": "0.0.1",
+        "layout": "metronic4",
+        "start_controller": "index",
+        "awc_icon": "idea",
+        "description": {
+            "_ru": "Пример модуля.",
+            "_en": "Example module."
+        },
+        "public": true,
+        "type": "dev",
+        "mobile": false,
+        "auto_install_lang": {
+            "en": false,
+            "ru": false
+        },
+        "last_update": "2024-04-16 10:58:48",
+        "versions": {
+            "0.0.1": {
+                "date": "2024-04-16 10:58:48",
+                "code": "0.0.1",
+                "user": "Ворона Father",
+                "info": null
+            }
+        }
+    },
+    "settings": [],
+    "fieldsets": [
+        {
+            "title": "Авторы",
+            "name": "authors",
+            "rest": false,
+            "label_field": "name",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "int"
+                },
+                {
+                    "name": "first_name",
+                    "type": "smalltext"
+                },
+                {
+                    "name": "second_name",
+                    "type": "smalltext"
+                },
+                {
+                    "name": "last_name",
+                    "type": "smalltext"
+                }
+            ]
+        },
+        {
+            "title": "Книги",
+            "name": "books",
+            "rest": false,
+            "label_field": "name",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "int"
+                },
+                {
+                    "name": "title",
+                    "type": "title"
+                },
+                {
+                    "name": "about",
+                    "type": "string"
+                },
+                {
+                    "name": "price",
+                    "type": "price",
+                    "default": "0.00"
+                },
+                {
+                    "name": "author_id",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "menu": [
+        {
+            "name": {
+                "_ru": "Книжный магазин",
+                "_en": "Book store"
+            },
+            "alias": "lesson_bookstore",
+            "file": "lesson_bookstore.php",
+            "access": [
+                "admin"
+            ]
+        }
+    ],
+    "menu_mobile": [],
+    "menu_chromeext": [],
+    "roles": {
+        "employee": {
+            "name": {
+                "_ru": "Сотрудник",
+                "_en": "Employee"
+            },
+            "description": {
+                "_ru": "",
+                "_en": ""
+            }
+        }
+    },
+    "init_data": {
+        "ru" : "ru\/init.json",
+        "en" : "en\/init.json"
+    },
+    "use_controller": true
+}

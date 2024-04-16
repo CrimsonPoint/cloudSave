@@ -1,0 +1,104 @@
+{
+  "init_data" :
+          [
+            {
+              "fieldset": "authors",
+              "entries": [
+                {
+                  "id": 1,
+                  "first_name": "Alexander",
+                  "second_name": "Sergeyevich",
+                  "last_name": "Pushkin"
+                },
+                {
+                  "id": 2,
+                  "first_name": "Nikolai",
+                  "second_name": "Vasilyevich",
+                  "last_name": "Gogol"
+                },
+                {
+                  "id": 3,
+                  "first_name": "Lev",
+                  "second_name": "Nikolayevich",
+                  "last_name": "Tolstoy"
+                }
+              ]
+            },
+            {
+              "fieldset": "books",
+              "entries": [
+                {
+                  "id": 1,
+                  "title": "Eugene Onegin",
+                  "about": "About \"Eugene Onegin\"",
+                  "price": "125.00",
+                  "author_id": 1
+                },
+                {
+                  "id": 2,
+                  "title": "Captain's daughter",
+                  "about": "About \"Captain's daughter\"",
+                  "price": "127.00",
+                  "author_id": 1
+                },
+                {
+                  "id": 3,
+                  "title": "Ruslan and Lyudmila",
+                  "about": "About \"Ruslan and Lyudmila\"",
+                  "price": "111.00",
+                  "author_id": 1
+                },
+                {
+                  "id": 4,
+                  "title": "Boris Godunov",
+                  "about": "About \"Boris Godunov\"",
+                  "price": "189.00",
+                  "author_id": 1
+                },
+                {
+                  "id": 5,
+                  "title": "The Queen of Spades",
+                  "about": "About \"The Queen of Spades\"",
+                  "price": "121.00",
+                  "author_id": 1
+                },
+                {
+                  "id": 6,
+                  "title": "Revisor",
+                  "about": "About \"Revisor\"",
+                  "price": "128.00",
+                  "author_id": 2
+                },
+                {
+                  "id": 7,
+                  "title": "Taras Bulba",
+                  "about": "About \"Taras Bulba\"",
+                  "price": "149.00",
+                  "author_id": 2
+                },
+                {
+                  "id": 8,
+                  "title": "Vij",
+                  "about": "About \"Vij\"",
+                  "price": "164.00",
+                  "author_id": 2
+                },
+                {
+                  "id": 9,
+                  "title": "War and peace",
+                  "about": "About \"War and peace\"",
+                  "price": "204.00",
+                  "author_id": 3
+                },
+                {
+                  "id": 10,
+                  "title": "Anna Karenina",
+                  "about": "About \"Anna Karenina\"",
+                  "price": "162.00",
+                  "author_id": 3
+                }
+              ]
+            }
+
+          ]
+}
